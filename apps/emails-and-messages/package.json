@@ -30,7 +30,7 @@
     "@trpc/next": "^10.13.0",
     "@trpc/react-query": "^10.13.0",
     "@trpc/server": "^10.13.0",
-    "@urql/exchange-auth": "^1.0.0",
+    "@urql/exchange-auth": "^2.1.2",
     "@vitejs/plugin-react": "^3.0.1",
     "clsx": "^1.2.1",
     "graphql": "^16.6.0",
