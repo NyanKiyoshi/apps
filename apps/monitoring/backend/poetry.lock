@@ -168,24 +168,26 @@ trio = ["trio (>=0.16,<0.22)"]
 
 [[package]]
 name = "ariadne"
-version = "0.17.1"
+version = "0.19.1"
 description = "Ariadne is a Python library for implementing GraphQL servers."
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "ariadne-0.17.1-py3-none-any.whl", hash = "sha256:62e50d28e40ebf6d99c690e261798d28b6bee21ad14154e409d0c0fc941ab83d"},
-    {file = "ariadne-0.17.1.tar.gz", hash = "sha256:07df3097f36434ecaaf7d00ab1541e9bd4d9d2678e9ef83b21d588100236bf2f"},
+    {file = "ariadne-0.19.1-py2.py3-none-any.whl", hash = "sha256:f730c26c6db2a55d2e00500d4c3ff8c5b5bef28eeb1aff3c18195c57703944b4"},
+    {file = "ariadne-0.19.1.tar.gz", hash = "sha256:9000b777dbdea03e49652d584292a39865047676b8de80d2f1333e2a046894b4"},
 ]
 
 [package.dependencies]
 graphql-core = ">=3.2.0,<3.3"
-starlette = "<1.0"
+starlette = ">0.17,<1.0"
 typing-extensions = ">=3.6.0"
 
 [package.extras]
 asgi-file-uploads = ["python-multipart (>=0.0.5)"]
-file-uploads = ["python-multipart (>=0.0.5)"]
+dev = ["black", "mypy", "pylint"]
+test = ["aiodataloader", "freezegun", "graphql-sync-dataloaders", "httpx", "opentracing", "pytest", "pytest-asyncio", "pytest-benchmark", "pytest-cov", "pytest-mock", "python-multipart (>=0.0.5)", "snapshottest", "werkzeug"]
+tracing = ["opentracing"]
 
 [[package]]
 name = "async-timeout"
@@ -1926,4 +1928,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "6e5dcb70097bc9ac74890e4f58e7b2b2e5037636ccb7e93e0f03480b107a16d2"
+content-hash = "adfa550bbdecd8c124735c70a35ed7e7d79f4eb76f311537efe099594dbd0a72"
