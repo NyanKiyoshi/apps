@@ -66,7 +66,7 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1",
+    "eslint-config-next": "13.3.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-saleor": "workspace:*",
     "pino-pretty": "^9.1.1",
