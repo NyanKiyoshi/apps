@@ -46,7 +46,7 @@
     "@graphql-codegen/cli": "2.13.3",
     "@graphql-codegen/introspection": "2.2.1",
     "@graphql-codegen/typed-document-node": "^2.3.3",
-    "@graphql-codegen/typescript": "2.7.3",
+    "@graphql-codegen/typescript": "3.0.4",
     "@graphql-codegen/typescript-operations": "2.5.3",
     "@graphql-codegen/typescript-urql": "^3.7.0",
     "@graphql-codegen/urql-introspection": "2.2.1",
